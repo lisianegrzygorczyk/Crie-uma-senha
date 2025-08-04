@@ -2,6 +2,24 @@
 :root{
     --branco:white;
     --cor-de-fundo:#0c1f56;
-    --fundo-senha:hsl(187, 60%, 49%);
-    --fundo-texto:#ffffff;
+    --fundo-senha:hsl(196, 66%, 46%);
+    --fundo-texto:hsl(203, 75%, 20%);
+    --borda:#2c1acc;
+    --fonte-principal: 'Embed Code'
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+}
+.conteudo-titulo{
+    text-align: center;
+}
+*{
+font-weight: 400;
+}
+.conteudo-senha{
+    margin-top: 80px;
+    background-color: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
 }
