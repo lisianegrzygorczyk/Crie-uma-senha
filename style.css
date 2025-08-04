@@ -2,5 +2,6 @@
 :root{
     --branco:white;
     --cor-de-fundo:#0c1f56;
-    --fundo-senha:lab(76.86% -19.07 -26.05);
+    --fundo-senha:hsl(187, 60%, 49%);
+    --fundo-texto:#ffffff;
 }
