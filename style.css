@@ -45,3 +45,13 @@ img{
 #campo-senha:fotos{
     outline: none;
 }
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--branco);
+    margin-top: 32px;
+    padding: 24px;
+}
+.parametro-titulo{
+    font-family: var(--fonte-principal);
+    font-size: 28px;
+}
