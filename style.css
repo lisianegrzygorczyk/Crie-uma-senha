@@ -2,7 +2,7 @@
 :root{
     --branco:white;
     --cor-de-fundo:#0c1f56;
-    --fundo-senha:#316ef2;
+    --fundo-senha:#0e3485;
     --fundo-texto:#0a2257d5;
     --borda:#2c1acc;
     --fonte-principal: 'Embed Code'
@@ -22,4 +22,11 @@ font-weight: 400;
     background-color: var(--fundo-senha);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
+}
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    
 }
