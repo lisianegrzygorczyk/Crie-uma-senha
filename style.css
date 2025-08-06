@@ -55,3 +55,6 @@ img{
     font-family: var(--fonte-principal);
     font-size: 28px;
 }
+.parametro-senha-titulo{
+    font-size: 24px;
+}
