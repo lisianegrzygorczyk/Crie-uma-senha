@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 :root{
     --branco:white;
-    --cor-de-fundo:#0c1f56;
-    --fundo-senha:#0e3485;
-    --fundo-texto:#0a2257d5;
-    --borda:#2c1acc;
+    --cor-de-fundo:#fe11bb;
+    --fundo-senha:#f652d2;
+    --fundo-texto:#e228aad5;
+    --borda:#f67fea;
     --fonte-principal: 'Embed Code'
 }
 body{
