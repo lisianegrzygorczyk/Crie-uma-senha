@@ -15,7 +15,7 @@ body{
     text-align: center;
 }
 *{
-font-weight: 400;
+    font-weight: 400;
 }
 .conteudo-senha{
     margin-top: 80px;
@@ -39,10 +39,10 @@ font-weight: 400;
     font-size: 24px;
 }
 img{
-    width: 10%;
-    height: 10%;
+    width: 4%;
+    height: 4%;
 }
-#campo-senha:fotos{
+#campo-senha:focus{
     outline: none;
 }
 .parametro{
@@ -80,17 +80,17 @@ img{
     cursor: pointer;
 }
 .parametro-senha-texto{
-padding: 24px;
-border-top: 2px solid var(--borda);
-border-bottom: 2px solid var(--borda);
-margin: 0;
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
 }
 label{
     font-size: 20px;
 }
 @media screen and (min-width: 768px) {
-    .botoes{
-        display: flex;
+    .parametro-coluna-senha{
+        flex-direction: row;
     }
 }
 .checkbox{
